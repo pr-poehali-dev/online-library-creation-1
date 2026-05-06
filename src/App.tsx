@@ -425,21 +425,26 @@ export default function App() {
               </div>
 
               <div className="space-y-6">
-                {[
-                  { icon: "Mail", title: "Email", value: "marina.golich@bk.ru", sub: "Ответим в течение 24 часов" },
-                  { icon: "MessageCircle", title: "Telegram", value: "@bookflow_ru", sub: "Быстрее всего — здесь" },
-                ].map(item => (
-                  <div key={item.title} className="flex gap-5 p-6 bg-card border border-border rounded-2xl hover:border-primary/30 transition-colors group">
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                      <Icon name={item.icon} size={20} className="text-primary" />
-                    </div>
-                    <div>
-                      <div className="text-muted-foreground text-xs font-medium uppercase tracking-wide mb-1">{item.title}</div>
-                      <div className="text-foreground font-semibold">{item.value}</div>
-                      <div className="text-muted-foreground text-sm mt-0.5">{item.sub}</div>
-                    </div>
+                <div className="flex gap-5 p-6 bg-card border border-border rounded-2xl hover:border-primary/30 transition-colors group">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
+                    <Icon name="Mail" size={20} className="text-primary" />
                   </div>
-                ))}
+                  <div>
+                    <div className="text-muted-foreground text-xs font-medium uppercase tracking-wide mb-1">Email</div>
+                    <div className="text-foreground font-semibold">marina.golich@bk.ru</div>
+                    <div className="text-muted-foreground text-sm mt-0.5">Ответим в течение 24 часов</div>
+                  </div>
+                </div>
+                <a href="https://t.me/BookFlow_bot_TG_bot?start=293921" target="_blank" rel="noopener noreferrer" className="flex gap-5 p-6 bg-card border border-border rounded-2xl hover:border-primary/30 transition-colors group">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
+                    <Icon name="MessageCircle" size={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <div className="text-muted-foreground text-xs font-medium uppercase tracking-wide mb-1">Telegram</div>
+                    <div className="text-foreground font-semibold">@bookflow_ru</div>
+                    <div className="text-muted-foreground text-sm mt-0.5">Быстрее всего — здесь</div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
