@@ -165,14 +165,7 @@ export default function App() {
                     </button>
                   </div>
 
-                  <div className="mt-14 flex gap-10">
-                    {[["10K+", "Книг"], ["500+", "Авторов"], ["50+", "Жанров"]].map(([val, label]) => (
-                      <div key={label}>
-                        <div className="font-display text-3xl font-bold text-primary">{val}</div>
-                        <div className="text-muted-foreground text-sm mt-1">{label}</div>
-                      </div>
-                    ))}
-                  </div>
+
                 </div>
 
                 <div className="relative hidden lg:block">
