@@ -13,7 +13,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 25% 18%;
 
-    --primary: 207 70% 46%;
+    --primary: 40 65% 45%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 40 25% 93%;
@@ -22,20 +22,20 @@
     --muted: 40 20% 92%;
     --muted-foreground: 220 12% 50%;
 
-    --accent: 207 55% 91%;
-    --accent-foreground: 207 70% 28%;
+    --accent: 42 60% 92%;
+    --accent-foreground: 40 65% 28%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 40 18% 86%;
     --input: 40 20% 91%;
-    --ring: 207 70% 46%;
+    --ring: 40 65% 45%;
 
     --radius: 0.75rem;
 
-    --sky: #3a96d8;
-    --sky-light: #e8f4fd;
+    --gold: #b8892a;
+    --gold-light: #f7edd8;
     --beige: #f5f0e8;
     --beige-dark: #ede8dc;
     --warm-white: #fafaf8;
@@ -69,21 +69,21 @@
 
   .glow-orange {
     box-shadow:
-      0 4px 20px rgba(58, 150, 216, 0.2),
-      0 2px 8px rgba(58, 150, 216, 0.1);
+      0 4px 20px rgba(184, 137, 42, 0.25),
+      0 2px 8px rgba(184, 137, 42, 0.12);
   }
   .glow-violet {
-    box-shadow: 0 4px 20px rgba(58, 150, 216, 0.15);
+    box-shadow: 0 4px 20px rgba(184, 137, 42, 0.18);
   }
   .text-glow {
-    text-shadow: 0 2px 16px rgba(58, 150, 216, 0.3);
+    text-shadow: 0 2px 16px rgba(184, 137, 42, 0.35);
   }
 
   .mesh-bg {
     background:
       radial-gradient(
         ellipse 65% 50% at 85% 15%,
-        rgba(58, 150, 216, 0.09) 0%,
+        rgba(184, 137, 42, 0.08) 0%,
         transparent 60%
       ),
       radial-gradient(
@@ -105,7 +105,7 @@
   .card-hover:hover {
     transform: translateY(-5px);
     box-shadow:
-      0 16px 48px rgba(58, 150, 216, 0.1),
+      0 16px 48px rgba(184, 137, 42, 0.12),
       0 4px 16px rgba(0, 0, 0, 0.06);
   }
 
@@ -120,7 +120,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--sky);
+    background: var(--gold);
     border-radius: 2px;
     transition: width 0.3s;
   }
@@ -186,18 +186,18 @@
 
   .genre-tag {
     @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium transition-all duration-200;
-    border: 1px solid rgba(58, 150, 216, 0.3);
-    color: #2a7ab5;
-    background: rgba(58, 150, 216, 0.07);
+    border: 1px solid rgba(184, 137, 42, 0.35);
+    color: #9a6f1e;
+    background: rgba(184, 137, 42, 0.07);
   }
   .genre-tag:hover {
-    background: rgba(58, 150, 216, 0.14);
-    border-color: rgba(58, 150, 216, 0.5);
+    background: rgba(184, 137, 42, 0.14);
+    border-color: rgba(184, 137, 42, 0.55);
   }
   .genre-tag.active {
-    background: #3a96d8;
+    background: #b8892a;
     color: #ffffff;
-    border-color: #3a96d8;
+    border-color: #b8892a;
   }
 
   .scrollbar-thin::-webkit-scrollbar {
@@ -207,7 +207,7 @@
     background: transparent;
   }
   .scrollbar-thin::-webkit-scrollbar-thumb {
-    background: rgba(58, 150, 216, 0.25);
+    background: rgba(184, 137, 42, 0.25);
     border-radius: 2px;
   }
 }
