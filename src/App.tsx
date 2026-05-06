@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
-const BOOK_IMG_1 = "https://cdn.poehali.dev/projects/2370b9bb-34e3-4a95-9c9c-18c283b19844/files/86a01e3a-7f0a-4522-b3b5-67202dabe28d.jpg";
-const BOOK_IMG_2 = "https://cdn.poehali.dev/projects/2370b9bb-34e3-4a95-9c9c-18c283b19844/files/74c71167-acf4-4f6e-a346-4ca8b36e8dc5.jpg";
-const BOOK_IMG_3 = "https://cdn.poehali.dev/projects/2370b9bb-34e3-4a95-9c9c-18c283b19844/files/7b1a5aa8-63e9-40c6-968e-ad701a038235.jpg";
+const BOOK_IMG_1 = "https://cdn.poehali.dev/projects/2370b9bb-34e3-4a95-9c9c-18c283b19844/files/25cba558-3b2f-4719-89fc-b61565aa4a76.jpg";
+const BOOK_IMG_2 = "https://cdn.poehali.dev/projects/2370b9bb-34e3-4a95-9c9c-18c283b19844/files/8f46c3f1-94c6-4553-b17b-f99c6f90766d.jpg";
+const BOOK_IMG_3 = "https://cdn.poehali.dev/projects/2370b9bb-34e3-4a95-9c9c-18c283b19844/files/20b3ee1a-c606-4881-8a21-9e63ed913916.jpg";
 
 const BOOKS = [
   { id: 1, title: "Мастер и Маргарита", author: "Михаил Булгаков", genre: "Классика", year: 1967, rating: 4.9, pages: 480, img: BOOK_IMG_1, desc: "Роман о дьяволе, явившемся в советскую Москву, и о вечной любви." },
