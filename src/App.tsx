@@ -164,6 +164,10 @@ export default function App() {
                       Об авторах
                     </button>
                   </div>
+                  <p className="mt-5 flex items-center gap-2 text-muted-foreground text-sm">
+                    <Icon name="Sparkles" size={14} className="text-primary" />
+                    Более 10 000 книг в коллекции
+                  </p>
 
 
                 </div>
