@@ -138,10 +138,6 @@ export default function App() {
 
               <div className="max-w-7xl mx-auto px-4 sm:px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
                 <div className="animate-slide-up">
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-medium mb-8">
-                    <Icon name="Sparkles" size={14} />
-                    Более 10 000 книг в коллекции
-                  </div>
                   <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl font-bold leading-[0.9] mb-6 text-foreground">
                     Читай.<br/>
                     <span className="text-primary text-glow">Открывай.</span><br/>
