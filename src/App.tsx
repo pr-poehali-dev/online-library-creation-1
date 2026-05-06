@@ -425,7 +425,6 @@ export default function App() {
                 {[
                   { icon: "Mail", title: "Email", value: "marina.golich@bk.ru", sub: "Ответим в течение 24 часов" },
                   { icon: "MessageCircle", title: "Telegram", value: "@bookflow_ru", sub: "Быстрее всего — здесь" },
-                  { icon: "Clock", title: "Режим работы", value: "Пн–Пт, 9:00–18:00", sub: "По московскому времени" },
                 ].map(item => (
                   <div key={item.title} className="flex gap-5 p-6 bg-card border border-border rounded-2xl hover:border-primary/30 transition-colors group">
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
