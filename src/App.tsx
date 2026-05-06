@@ -423,7 +423,7 @@ export default function App() {
 
               <div className="space-y-6">
                 {[
-                  { icon: "Mail", title: "Email", value: "hello@bookflow.ru", sub: "Ответим в течение 24 часов" },
+                  { icon: "Mail", title: "Email", value: "marina.golich@bk.ru", sub: "Ответим в течение 24 часов" },
                   { icon: "MessageCircle", title: "Telegram", value: "@bookflow_ru", sub: "Быстрее всего — здесь" },
                   { icon: "Clock", title: "Режим работы", value: "Пн–Пт, 9:00–18:00", sub: "По московскому времени" },
                 ].map(item => (
