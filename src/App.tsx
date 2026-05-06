@@ -152,12 +152,15 @@ export default function App() {
                     >
                       Открыть каталог
                     </button>
-                    <button
-                      onClick={() => navigate("authors")}
-                      className="px-8 py-4 border border-border hover:border-primary/50 text-foreground font-semibold rounded-xl transition-all duration-200 hover:bg-secondary"
+                    <a
+                      href="https://t.me/BookFlow_bot_TG_bot?start=293921"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-8 py-4 border border-border hover:border-primary/50 text-foreground font-semibold rounded-xl transition-all duration-200 hover:bg-secondary flex items-center gap-2"
                     >
-                      Об авторах
-                    </button>
+                      <Icon name="Send" size={16} className="text-primary" />
+                      Мы в ТГ
+                    </a>
                   </div>
                   <p className="mt-5 flex items-center gap-2 text-muted-foreground text-sm">
                     <Icon name="Sparkles" size={14} className="text-primary" />
